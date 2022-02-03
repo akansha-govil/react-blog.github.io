@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.hollywood-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.hollywood-heading {
+    margin-top: 40px;
+    width: 50%;
+    text-align: left;
+}
+.first-block {
+    margin-top: 40px;
+    width: 50%;
+    border-radius: 5px;
+    /* border-style: solid;
+    border-color: black; */
+    
+}
+.hollywood-heading1 {
+    margin-top: 40px;
+    width: 40%;
+    text-align: left;
+}
+.second-block {
+    margin-top: -3px;
+    width: 40%;
+    text-align: left;
+    /* border-style: solid;
+    border-color: black; */
+}
+.hollywood-card {
+    width: 550px;
+    height: 280px;
+    /* border-style: solid;
+    border-color: black; */
+    margin-top: 60px;
+   
+}
+.harry-img {
+    background-image: url("./../../public/image/harry.jpg");
+    background-size: 100% 100%;
+    height: 270px;
+    width: 300px;
+    float: left;
+    border-radius: 5px;
+}
+.harry-desc {
+    text-align: justify;
+    margin-left: 313px;
+    margin-top: 42px;
+    height: 149px;
+    width: 207px;
+}
+.pirates-img {
+    background-image: url("./../../public/image/pirates.jpg");
+    background-size: 100% 100%;
+    height: 270px;
+    width: 300px;
+    float: left;
+    border-radius: 5px;
+}
+.fast-img {
+    background-image: url("./../../public/image/fast-furius.jpg");
+    background-size: 100% 100%;
+    height: 270px;
+    width: 300px;
+    float: left;
+    border-radius: 5px;
+}
+.harry-img1 {
+    background-image: url("./../../public/image/harry1.jpg");
+    background-size: 100% 100%;
+    height: 270px;
+    width: 300px;
+    float: left;
+    border-radius: 5px;
+}
+.top-card {
+    width: 100%;
+    height: 160px;
+    /* border-style: solid;
+    border-color: black; */
+    margin-top: 60px;
+
+}
+.top-img {
+    background-image: url("./../../public/image/wave.jpg");
+    background-size: 100% 100%;
+    height: 155px;
+    width: 278px;
+    float: left;
+    border-radius: 5px;
+}
+.top-img1 {
+    background-image: url("./../../public/image/inception.jpeg");
+    background-size: 100% 100%;
+    height: 155px;
+    width: 278px;
+    float: left;
+    border-radius: 5px;
+}
+.top-img2 {
+    background-image: url("./../../public/image/jumanji-1.jpg");
+    background-size: 100% 100%;
+    height: 155px;
+    width: 278px;
+    float: left;
+    border-radius: 5px;
+}
+.top-img3 {
+    background-image: url("./../../public/image/Jumanji-4.jpg");
+    background-size: 100% 100%;
+    height: 155px;
+    width: 278px;
+    float: left;
+    border-radius: 5px;
+}
+.top-desc {
+    text-align: justify;
+    margin-left: 290px;
+    margin-top: 38px;
+    height: 149px;
+    width: 207px;
+}
+.top-img4 {
+    background-image: url("./../../public/image/avengers.jpg");
+    background-size: 100% 100%;
+    height: 155px;
+    width: 278px;
+    float: left;
+    border-radius: 5px;
+}
+.top-img5 {
+    background-image: url("./../../public/image/avengers2.jpg");
+    background-size: 100% 100%;
+    height: 155px;
+    width: 278px;
+    float: left;
+    border-radius: 5px;
+}
+
+@media screen and (max-width : 974px){
+
+    .second-block {
+        margin-top: 2951px;
+        width: 40%;
+        text-align: left;
+        position: absolute;
+    }
+}
